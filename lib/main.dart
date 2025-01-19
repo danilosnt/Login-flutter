@@ -4,16 +4,11 @@ void main() {
   runApp(const MyApp());
 }
 
-
 class Page {
-
-  
-
-  builder(){
-
+  void printPage() {
+    print("Hello Wolrd");
   }
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -42,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Teste título'),
+      home: const MyHomePage(title: 'App'),
     );
   }
 }
